@@ -30,7 +30,7 @@ const Customizelinks: React.FC = () => {
                                 alt="linkshare logo"
                                 width={124.77}
                                 height={80}
-                                className="mt-[46.5px] "
+                                className="mt-[46.5px] lg:w-[249.53px] h-[160px] "
                             />
                             <p className="text-2xl font-bold mb-2">Let's get you started</p>
                             <p className="text-base">
