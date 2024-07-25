@@ -2,13 +2,13 @@
 import React from 'react'
 import { useState } from 'react'
 import { doc, setDoc } from 'firebase/firestore';
-import { db, auth } from '../firebase/firebase';
+import { db, auth } from '../../firebase/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { FileImage } from "lucide-react"
 import Image from 'next/image'
-import { Input } from '../../@/components/ui/input'
-import { Label } from '../../@/components/ui/label'
-import { Button } from '../../@/components/ui/button'
+import { Input } from '../../../@/components/ui/input'
+import { Label } from '../..//../@/components/ui/label'
+import { Button } from '../..//../@/components/ui/button'
 
 const Profile: React.FC  = () => {
     const [user] = useAuthState(auth);

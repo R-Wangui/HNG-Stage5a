@@ -1,10 +1,10 @@
 'use client'
 import { useState, useEffect } from 'react';
 import { doc, getDoc } from 'firebase/firestore';
-import { db, auth } from '../firebase/firebase';
+import { db, auth } from '../../firebase/firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import React from 'react'
-import { Button } from '../../@/components/ui/button'
+import { Button } from '../..//../@/components/ui/button'
 import Image from 'next/image';
 
 const Preview:React.FC = () => {

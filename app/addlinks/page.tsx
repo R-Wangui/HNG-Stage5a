@@ -1,5 +1,5 @@
 import React from 'react'
-import Addmorelinks from '@components/addmorelinks'
+import Addmorelinks from '../components/common/addmorelinks'
 import Header from '@components/common/header'
 
 const page = () => {
